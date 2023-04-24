@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+body{
+    background: #1F1D2B;
+    font-family: 'Poppins', sans-serif;
+}
+#skateboard{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    color: wheat;
+}
+.header select{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    background: #1F1D2B;
+    letter-spacing: 0.5px;
+    color: white;
+    border: none;
+}
+.headerOne{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    margin-left: 100px;
+}
+.header input{
+    width: 500px;
+    height: 40px;
+    background: #FFFFFF;
+    opacity: 0.1;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: wheat;
+    caret-color: #FFFFFF;
+}
+.disc-one{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 20px 0;
+}
+.disc-one:hover{
+    cursor: pointer;
+}
+.disc-one button{
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    color: #808191;
+    background: #160823;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.disc-one:hover button{
+    background: red;
+    color: white;
+    transform: scale(1.1);
+}
+.disc-one:hover p{
+    color: white;
+    transform: scale(1.1);
+
+}
+.disc-one p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #808191;
+    transition: 0.3s;
+}
+.heroMenu{
+    width: 13%;
+    height: 100vh;
+}
+.menu-disc{
+    margin-top: 20px;
+}
+.menu-disc span{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 1.5px;
+    color: #808191;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.heroMenu hr{
+    border: 1px solid #34373C;
+}
+.hero input{
+    background: blueviolet;
+}
+.discover h1 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.discover img{
+    width: 600px;
+    height: 300px
+}
+.discover h2{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.group-one{
+    position: absolute;
+    width: 1px;
+    heightpx;
+    left: 322px;
+    top: 395px;
+}
